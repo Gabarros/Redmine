@@ -1,0 +1,131 @@
+a:hover
+{
+   text-decoration: none;
+   color: #759FCF;
+}
+
+a:link
+{
+   text-decoration: none;
+   color: #507aaa;
+}
+
+h2
+{
+	text-align: center;
+}
+
+#menu
+{
+	width: 130px;
+	/*height: auto;*/
+	font-size: 10pt;
+	float: left;
+	background-color:#fff;
+	position: relative;
+}
+
+#menu li
+{
+	padding-bottom: 6px;
+	list-style-type: none;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left:0px;
+}
+
+#menu ul
+{
+	padding-bottom: 6px;
+	list-style-type: none;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left:3px;
+}
+
+#conteudo
+{
+	border-left-width: 1px;
+	border-left-color: #BBB;
+	border-left-style: solid;
+	padding: 5px;
+	padding-left: 10px;
+	margin: 5px 5px 5px 10px;
+	width: 800px;
+	/*height: 500px;*/
+	font-size: 12px;
+	float: left;
+	background-color:#FFF;
+}
+
+b
+{
+	font-size: 12px;
+}
+
+textarea
+{
+	width: 800px;
+	height: 60px;
+	border: 2px solid #cccccc;
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+}
+
+.big_text_area
+{
+  width: 800px;
+	height: 200px;
+}
+
+.botao
+{
+	/*border: 2px solid #507aaa;*/
+	color: #FFF;
+	background-color: #507aaa;
+}
+
+input:focus
+{
+	background-color: #cccccc;
+	border-color:#759FCF;
+}
+
+textarea:focus
+{
+	background-color: #cccccc;
+	border-color:#759FCF;
+}
+
+.required {color: #bb0000;}
+.boxamarelo {background:#ffffdd}
+.boxcinza
+{
+  background:#EEEEEE;
+  border: 1px solid;
+  width: 500px;
+}
+.set_right
+{
+  float:right;
+}
+.div_screen
+{
+  margin: 0;
+  padding: 5px 0 8px 0;
+  padding-left: 100px; /*width of left column containing the label elements*/
+  height: 1%;
+  width: 520px;
+}
+.imagem_show { background-image: url(../files/110322154537_Captura_de_tela-1.png); }
+.icon-home { background-image: url(../images/house.png); }
+.icon-create_pdf { background-image: url(../images/page_white_acrobat.png); }
+.icon-complete { background-image: url(../images/accept.png); }
+.icon-list { background-image: url(../images/text_list_bullets.png); }
+.link_glossario {color: #0000FF;}
+.not_meets {color: #FF0000; background-image: url(../images/false.png);}
+.partly_meets {color: #D0A90E; background-image: url(../images/warning.png);}
+.fully_meets {color: #00FF00; background-image: url(../images/accept.png);}
+
